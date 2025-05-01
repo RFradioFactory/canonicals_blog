@@ -8,7 +8,7 @@ import { useEnterOptionSubmit } from './hooks/useEnterOptionSubmit';
 
 import styles from './Select.module.scss';
 
-type OptionProps = {
+export type OptionProps = {
 	option: OptionType;
 	onClick: (value: OptionType['value']) => void;
 };
